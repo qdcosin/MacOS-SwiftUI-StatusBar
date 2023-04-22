@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0A8B46129F3AB070081FFC5 /* MacOS_SwiftUI_StatusBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8B46029F3AB070081FFC5 /* MacOS_SwiftUI_StatusBarApp.swift */; };
+		E0A8B46329F3AB070081FFC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8B46229F3AB070081FFC5 /* ContentView.swift */; };
+		E0A8B46529F3AB080081FFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A8B46429F3AB080081FFC5 /* Assets.xcassets */; };
+		E0A8B46829F3AB080081FFC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A8B46729F3AB080081FFC5 /* Preview Assets.xcassets */; };
+		E0A8B47329F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8B47229F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarTests.swift */; };
+		E0A8B47D29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8B47C29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITests.swift */; };
+		E0A8B47F29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A8B47E29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0A8B46F29F3AB080081FFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A8B45529F3AB070081FFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A8B45C29F3AB070081FFC5;
+			remoteInfo = "MacOS-SwiftUI-StatusBar";
+		};
+		E0A8B47929F3AB080081FFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A8B45529F3AB070081FFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A8B45C29F3AB070081FFC5;
+			remoteInfo = "MacOS-SwiftUI-StatusBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0A8B45D29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-SwiftUI-StatusBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A8B46029F3AB070081FFC5 /* MacOS_SwiftUI_StatusBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_SwiftUI_StatusBarApp.swift; sourceTree = "<group>"; };
+		E0A8B46229F3AB070081FFC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0A8B46429F3AB080081FFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0A8B46729F3AB080081FFC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0A8B46929F3AB080081FFC5 /* MacOS_SwiftUI_StatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_SwiftUI_StatusBar.entitlements; sourceTree = "<group>"; };
+		E0A8B46E29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-SwiftUI-StatusBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A8B47229F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_SwiftUI_StatusBarTests.swift; sourceTree = "<group>"; };
+		E0A8B47829F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-SwiftUI-StatusBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A8B47C29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_SwiftUI_StatusBarUITests.swift; sourceTree = "<group>"; };
+		E0A8B47E29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0A8B45A29F3AB070081FFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B46B29F3AB080081FFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B47529F3AB080081FFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0A8B45429F3AB070081FFC5 = {
+			isa = PBXGroup;
+			children = (
+				E0A8B45F29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */,
+				E0A8B47129F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests */,
+				E0A8B47B29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests */,
+				E0A8B45E29F3AB070081FFC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A8B45E29F3AB070081FFC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8B45D29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar.app */,
+				E0A8B46E29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests.xctest */,
+				E0A8B47829F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0A8B45F29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8B46029F3AB070081FFC5 /* MacOS_SwiftUI_StatusBarApp.swift */,
+				E0A8B46229F3AB070081FFC5 /* ContentView.swift */,
+				E0A8B46429F3AB080081FFC5 /* Assets.xcassets */,
+				E0A8B46929F3AB080081FFC5 /* MacOS_SwiftUI_StatusBar.entitlements */,
+				E0A8B46629F3AB080081FFC5 /* Preview Content */,
+			);
+			path = "MacOS-SwiftUI-StatusBar";
+			sourceTree = "<group>";
+		};
+		E0A8B46629F3AB080081FFC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8B46729F3AB080081FFC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0A8B47129F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8B47229F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarTests.swift */,
+			);
+			path = "MacOS-SwiftUI-StatusBarTests";
+			sourceTree = "<group>";
+		};
+		E0A8B47B29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A8B47C29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITests.swift */,
+				E0A8B47E29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift */,
+			);
+			path = "MacOS-SwiftUI-StatusBarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0A8B45C29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A8B48229F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBar" */;
+			buildPhases = (
+				E0A8B45929F3AB070081FFC5 /* Sources */,
+				E0A8B45A29F3AB070081FFC5 /* Frameworks */,
+				E0A8B45B29F3AB070081FFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacOS-SwiftUI-StatusBar";
+			productName = "MacOS-SwiftUI-StatusBar";
+			productReference = E0A8B45D29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0A8B46D29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A8B48529F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBarTests" */;
+			buildPhases = (
+				E0A8B46A29F3AB080081FFC5 /* Sources */,
+				E0A8B46B29F3AB080081FFC5 /* Frameworks */,
+				E0A8B46C29F3AB080081FFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A8B47029F3AB080081FFC5 /* PBXTargetDependency */,
+			);
+			name = "MacOS-SwiftUI-StatusBarTests";
+			productName = "MacOS-SwiftUI-StatusBarTests";
+			productReference = E0A8B46E29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0A8B47729F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A8B48829F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBarUITests" */;
+			buildPhases = (
+				E0A8B47429F3AB080081FFC5 /* Sources */,
+				E0A8B47529F3AB080081FFC5 /* Frameworks */,
+				E0A8B47629F3AB080081FFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A8B47A29F3AB080081FFC5 /* PBXTargetDependency */,
+			);
+			name = "MacOS-SwiftUI-StatusBarUITests";
+			productName = "MacOS-SwiftUI-StatusBarUITests";
+			productReference = E0A8B47829F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0A8B45529F3AB070081FFC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E0A8B45C29F3AB070081FFC5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E0A8B46D29F3AB080081FFC5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E0A8B45C29F3AB070081FFC5;
+					};
+					E0A8B47729F3AB080081FFC5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E0A8B45C29F3AB070081FFC5;
+					};
+				};
+			};
+			buildConfigurationList = E0A8B45829F3AB070081FFC5 /* Build configuration list for PBXProject "MacOS-SwiftUI-StatusBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0A8B45429F3AB070081FFC5;
+			productRefGroup = E0A8B45E29F3AB070081FFC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A8B45C29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */,
+				E0A8B46D29F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarTests */,
+				E0A8B47729F3AB080081FFC5 /* MacOS-SwiftUI-StatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0A8B45B29F3AB070081FFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8B46829F3AB080081FFC5 /* Preview Assets.xcassets in Resources */,
+				E0A8B46529F3AB080081FFC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B46C29F3AB080081FFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B47629F3AB080081FFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0A8B45929F3AB070081FFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8B46329F3AB070081FFC5 /* ContentView.swift in Sources */,
+				E0A8B46129F3AB070081FFC5 /* MacOS_SwiftUI_StatusBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B46A29F3AB080081FFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8B47329F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A8B47429F3AB080081FFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8B47F29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITestsLaunchTests.swift in Sources */,
+				E0A8B47D29F3AB080081FFC5 /* MacOS_SwiftUI_StatusBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0A8B47029F3AB080081FFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A8B45C29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */;
+			targetProxy = E0A8B46F29F3AB080081FFC5 /* PBXContainerItemProxy */;
+		};
+		E0A8B47A29F3AB080081FFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A8B45C29F3AB070081FFC5 /* MacOS-SwiftUI-StatusBar */;
+			targetProxy = E0A8B47929F3AB080081FFC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0A8B48029F3AB080081FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0A8B48129F3AB080081FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0A8B48329F3AB080081FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS-SwiftUI-StatusBar/MacOS_SwiftUI_StatusBar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-SwiftUI-StatusBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0A8B48429F3AB080081FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS-SwiftUI-StatusBar/MacOS_SwiftUI_StatusBar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-SwiftUI-StatusBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0A8B48629F3AB080081FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-SwiftUI-StatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS-SwiftUI-StatusBar";
+			};
+			name = Debug;
+		};
+		E0A8B48729F3AB080081FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-SwiftUI-StatusBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS-SwiftUI-StatusBar";
+			};
+			name = Release;
+		};
+		E0A8B48929F3AB080081FFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS-SwiftUI-StatusBar";
+			};
+			name = Debug;
+		};
+		E0A8B48A29F3AB080081FFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosin.MacOS-SwiftUI-StatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS-SwiftUI-StatusBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0A8B45829F3AB070081FFC5 /* Build configuration list for PBXProject "MacOS-SwiftUI-StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A8B48029F3AB080081FFC5 /* Debug */,
+				E0A8B48129F3AB080081FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A8B48229F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A8B48329F3AB080081FFC5 /* Debug */,
+				E0A8B48429F3AB080081FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A8B48529F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A8B48629F3AB080081FFC5 /* Debug */,
+				E0A8B48729F3AB080081FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A8B48829F3AB080081FFC5 /* Build configuration list for PBXNativeTarget "MacOS-SwiftUI-StatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A8B48929F3AB080081FFC5 /* Debug */,
+				E0A8B48A29F3AB080081FFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0A8B45529F3AB070081FFC5 /* Project object */;
+}
